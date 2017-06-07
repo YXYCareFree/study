@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WEBViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="la9-ky-1VP" id="zmG-lL-2gy"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="la9-ky-1VP">
+                    <rect key="frame" x="152" y="297" width="240" height="128"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                </webView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="la9-ky-1VP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2bO-V4-nCl"/>
+                <constraint firstAttribute="bottom" secondItem="la9-ky-1VP" secondAttribute="bottom" id="DF1-Nf-xqq"/>
+                <constraint firstAttribute="trailing" secondItem="la9-ky-1VP" secondAttribute="trailing" id="GMm-hg-hO2"/>
+                <constraint firstItem="la9-ky-1VP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="l5r-0D-Vcx"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="2bO-V4-nCl"/>
+                    <exclude reference="DF1-Nf-xqq"/>
+                    <exclude reference="GMm-hg-hO2"/>
+                    <exclude reference="l5r-0D-Vcx"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <include reference="2bO-V4-nCl"/>
+                    <include reference="DF1-Nf-xqq"/>
+                    <include reference="GMm-hg-hO2"/>
+                    <include reference="l5r-0D-Vcx"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

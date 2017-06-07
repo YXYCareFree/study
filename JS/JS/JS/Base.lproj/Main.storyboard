@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZq-hO-06C">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="PAe-Mb-nhY"/>
+                                </connections>
+                            </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tf0-QS-A19">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="249" y="497" width="46" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5uu-GM-gvl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="OZq-hO-06C" secondAttribute="trailing" id="2u6-gK-ahW"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OZq-hO-06C" secondAttribute="bottom" id="Fbp-mW-tRX"/>
+                            <constraint firstItem="OZq-hO-06C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="NFY-Kc-f37"/>
+                            <constraint firstItem="OZq-hO-06C" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fcF-Vv-woo"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="OZq-hO-06C"/>
+                                <exclude reference="tf0-QS-A19"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Fbp-mW-tRX"/>
+                                <exclude reference="2u6-gK-ahW"/>
+                                <exclude reference="NFY-Kc-f37"/>
+                                <exclude reference="fcF-Vv-woo"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="OZq-hO-06C"/>
+                                <include reference="tf0-QS-A19"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Fbp-mW-tRX"/>
+                                <include reference="2u6-gK-ahW"/>
+                                <include reference="NFY-Kc-f37"/>
+                                <include reference="fcF-Vv-woo"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="OZq-hO-06C" id="yCV-ZC-I40"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

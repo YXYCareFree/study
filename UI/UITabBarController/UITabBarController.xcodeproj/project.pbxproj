@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3CD2F891CA266C200587772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD2F881CA266C200587772 /* main.m */; };
+		A3CD2F8C1CA266C200587772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD2F8B1CA266C200587772 /* AppDelegate.m */; };
+		A3CD2F8F1CA266C200587772 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD2F8E1CA266C200587772 /* ViewController.m */; };
+		A3CD2F921CA266C200587772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CD2F901CA266C200587772 /* Main.storyboard */; };
+		A3CD2F941CA266C200587772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CD2F931CA266C200587772 /* Assets.xcassets */; };
+		A3CD2F971CA266C200587772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CD2F951CA266C200587772 /* LaunchScreen.storyboard */; };
+		A3CD2FA21CA266C200587772 /* UITabBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD2FA11CA266C200587772 /* UITabBarControllerTests.m */; };
+		A3CD2FAD1CA266C200587772 /* UITabBarControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD2FAC1CA266C200587772 /* UITabBarControllerUITests.m */; };
+		A3CD2FBC1CA266FD00587772 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD2FBB1CA266FD00587772 /* MyTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3CD2F9E1CA266C200587772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CD2F7C1CA266C200587772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CD2F831CA266C200587772;
+			remoteInfo = UITabBarController;
+		};
+		A3CD2FA91CA266C200587772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CD2F7C1CA266C200587772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CD2F831CA266C200587772;
+			remoteInfo = UITabBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3CD2F841CA266C200587772 /* UITabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD2F881CA266C200587772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CD2F8A1CA266C200587772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3CD2F8B1CA266C200587772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3CD2F8D1CA266C200587772 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3CD2F8E1CA266C200587772 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3CD2F911CA266C200587772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3CD2F931CA266C200587772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3CD2F961CA266C200587772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3CD2F981CA266C200587772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CD2F9D1CA266C200587772 /* UITabBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD2FA11CA266C200587772 /* UITabBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarControllerTests.m; sourceTree = "<group>"; };
+		A3CD2FA31CA266C200587772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CD2FA81CA266C200587772 /* UITabBarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabBarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD2FAC1CA266C200587772 /* UITabBarControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarControllerUITests.m; sourceTree = "<group>"; };
+		A3CD2FAE1CA266C200587772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CD2FBA1CA266FD00587772 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		A3CD2FBB1CA266FD00587772 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CD2F811CA266C200587772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD2F9A1CA266C200587772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD2FA51CA266C200587772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3CD2F7B1CA266C200587772 = {
+			isa = PBXGroup;
+			children = (
+				A3CD2F861CA266C200587772 /* UITabBarController */,
+				A3CD2FA01CA266C200587772 /* UITabBarControllerTests */,
+				A3CD2FAB1CA266C200587772 /* UITabBarControllerUITests */,
+				A3CD2F851CA266C200587772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CD2F851CA266C200587772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD2F841CA266C200587772 /* UITabBarController.app */,
+				A3CD2F9D1CA266C200587772 /* UITabBarControllerTests.xctest */,
+				A3CD2FA81CA266C200587772 /* UITabBarControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CD2F861CA266C200587772 /* UITabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD2F8A1CA266C200587772 /* AppDelegate.h */,
+				A3CD2F8B1CA266C200587772 /* AppDelegate.m */,
+				A3CD2F8D1CA266C200587772 /* ViewController.h */,
+				A3CD2F8E1CA266C200587772 /* ViewController.m */,
+				A3CD2F901CA266C200587772 /* Main.storyboard */,
+				A3CD2F931CA266C200587772 /* Assets.xcassets */,
+				A3CD2F951CA266C200587772 /* LaunchScreen.storyboard */,
+				A3CD2F981CA266C200587772 /* Info.plist */,
+				A3CD2F871CA266C200587772 /* Supporting Files */,
+				A3CD2FBA1CA266FD00587772 /* MyTabBarController.h */,
+				A3CD2FBB1CA266FD00587772 /* MyTabBarController.m */,
+			);
+			path = UITabBarController;
+			sourceTree = "<group>";
+		};
+		A3CD2F871CA266C200587772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD2F881CA266C200587772 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3CD2FA01CA266C200587772 /* UITabBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD2FA11CA266C200587772 /* UITabBarControllerTests.m */,
+				A3CD2FA31CA266C200587772 /* Info.plist */,
+			);
+			path = UITabBarControllerTests;
+			sourceTree = "<group>";
+		};
+		A3CD2FAB1CA266C200587772 /* UITabBarControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD2FAC1CA266C200587772 /* UITabBarControllerUITests.m */,
+				A3CD2FAE1CA266C200587772 /* Info.plist */,
+			);
+			path = UITabBarControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CD2F831CA266C200587772 /* UITabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD2FB11CA266C200587772 /* Build configuration list for PBXNativeTarget "UITabBarController" */;
+			buildPhases = (
+				A3CD2F801CA266C200587772 /* Sources */,
+				A3CD2F811CA266C200587772 /* Frameworks */,
+				A3CD2F821CA266C200587772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITabBarController;
+			productName = UITabBarController;
+			productReference = A3CD2F841CA266C200587772 /* UITabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3CD2F9C1CA266C200587772 /* UITabBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD2FB41CA266C200587772 /* Build configuration list for PBXNativeTarget "UITabBarControllerTests" */;
+			buildPhases = (
+				A3CD2F991CA266C200587772 /* Sources */,
+				A3CD2F9A1CA266C200587772 /* Frameworks */,
+				A3CD2F9B1CA266C200587772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CD2F9F1CA266C200587772 /* PBXTargetDependency */,
+			);
+			name = UITabBarControllerTests;
+			productName = UITabBarControllerTests;
+			productReference = A3CD2F9D1CA266C200587772 /* UITabBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3CD2FA71CA266C200587772 /* UITabBarControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD2FB71CA266C200587772 /* Build configuration list for PBXNativeTarget "UITabBarControllerUITests" */;
+			buildPhases = (
+				A3CD2FA41CA266C200587772 /* Sources */,
+				A3CD2FA51CA266C200587772 /* Frameworks */,
+				A3CD2FA61CA266C200587772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CD2FAA1CA266C200587772 /* PBXTargetDependency */,
+			);
+			name = UITabBarControllerUITests;
+			productName = UITabBarControllerUITests;
+			productReference = A3CD2FA81CA266C200587772 /* UITabBarControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CD2F7C1CA266C200587772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = beyondSoft;
+				TargetAttributes = {
+					A3CD2F831CA266C200587772 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A3CD2F9C1CA266C200587772 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3CD2F831CA266C200587772;
+					};
+					A3CD2FA71CA266C200587772 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3CD2F831CA266C200587772;
+					};
+				};
+			};
+			buildConfigurationList = A3CD2F7F1CA266C200587772 /* Build configuration list for PBXProject "UITabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CD2F7B1CA266C200587772;
+			productRefGroup = A3CD2F851CA266C200587772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CD2F831CA266C200587772 /* UITabBarController */,
+				A3CD2F9C1CA266C200587772 /* UITabBarControllerTests */,
+				A3CD2FA71CA266C200587772 /* UITabBarControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CD2F821CA266C200587772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD2F971CA266C200587772 /* LaunchScreen.storyboard in Resources */,
+				A3CD2F941CA266C200587772 /* Assets.xcassets in Resources */,
+				A3CD2F921CA266C200587772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD2F9B1CA266C200587772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD2FA61CA266C200587772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CD2F801CA266C200587772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD2F8F1CA266C200587772 /* ViewController.m in Sources */,
+				A3CD2FBC1CA266FD00587772 /* MyTabBarController.m in Sources */,
+				A3CD2F8C1CA266C200587772 /* AppDelegate.m in Sources */,
+				A3CD2F891CA266C200587772 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD2F991CA266C200587772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD2FA21CA266C200587772 /* UITabBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD2FA41CA266C200587772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD2FAD1CA266C200587772 /* UITabBarControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3CD2F9F1CA266C200587772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CD2F831CA266C200587772 /* UITabBarController */;
+			targetProxy = A3CD2F9E1CA266C200587772 /* PBXContainerItemProxy */;
+		};
+		A3CD2FAA1CA266C200587772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CD2F831CA266C200587772 /* UITabBarController */;
+			targetProxy = A3CD2FA91CA266C200587772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3CD2F901CA266C200587772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CD2F911CA266C200587772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CD2F951CA266C200587772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CD2F961CA266C200587772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CD2FAF1CA266C200587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3CD2FB01CA266C200587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3CD2FB21CA266C200587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UITabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.UITabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3CD2FB31CA266C200587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UITabBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.UITabBarController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3CD2FB51CA266C200587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.UITabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITabBarController.app/UITabBarController";
+			};
+			name = Debug;
+		};
+		A3CD2FB61CA266C200587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITabBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.UITabBarControllerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITabBarController.app/UITabBarController";
+			};
+			name = Release;
+		};
+		A3CD2FB81CA266C200587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.UITabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3CD2FB91CA266C200587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITabBarControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.UITabBarControllerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITabBarController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CD2F7F1CA266C200587772 /* Build configuration list for PBXProject "UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD2FAF1CA266C200587772 /* Debug */,
+				A3CD2FB01CA266C200587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CD2FB11CA266C200587772 /* Build configuration list for PBXNativeTarget "UITabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD2FB21CA266C200587772 /* Debug */,
+				A3CD2FB31CA266C200587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3CD2FB41CA266C200587772 /* Build configuration list for PBXNativeTarget "UITabBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD2FB51CA266C200587772 /* Debug */,
+				A3CD2FB61CA266C200587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3CD2FB71CA266C200587772 /* Build configuration list for PBXNativeTarget "UITabBarControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD2FB81CA266C200587772 /* Debug */,
+				A3CD2FB91CA266C200587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CD2F7C1CA266C200587772 /* Project object */;
+}

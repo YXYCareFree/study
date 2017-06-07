@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3CD30491CA3C67F00587772 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30481CA3C67F00587772 /* main.m */; };
+		A3CD304C1CA3C67F00587772 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD304B1CA3C67F00587772 /* AppDelegate.m */; };
+		A3CD304F1CA3C67F00587772 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD304E1CA3C67F00587772 /* ViewController.m */; };
+		A3CD30521CA3C67F00587772 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CD30501CA3C67F00587772 /* Main.storyboard */; };
+		A3CD30541CA3C67F00587772 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3CD30531CA3C67F00587772 /* Assets.xcassets */; };
+		A3CD30571CA3C67F00587772 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3CD30551CA3C67F00587772 /* LaunchScreen.storyboard */; };
+		A3CD30621CA3C67F00587772 /* JSONModelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30611CA3C67F00587772 /* JSONModelTestTests.m */; };
+		A3CD306D1CA3C67F00587772 /* JSONModelTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD306C1CA3C67F00587772 /* JSONModelTestUITests.m */; };
+		A3CD30971CA3C6A300587772 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD307E1CA3C6A300587772 /* JSONModel.m */; };
+		A3CD30981CA3C6A300587772 /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30801CA3C6A300587772 /* JSONModelArray.m */; };
+		A3CD30991CA3C6A300587772 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30821CA3C6A300587772 /* JSONModelClassProperty.m */; };
+		A3CD309A1CA3C6A300587772 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30841CA3C6A300587772 /* JSONModelError.m */; };
+		A3CD309B1CA3C6A300587772 /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30871CA3C6A300587772 /* NSArray+JSONModel.m */; };
+		A3CD309C1CA3C6A300587772 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD308B1CA3C6A300587772 /* JSONAPI.m */; };
+		A3CD309D1CA3C6A300587772 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD308D1CA3C6A300587772 /* JSONHTTPClient.m */; };
+		A3CD309E1CA3C6A300587772 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD308F1CA3C6A300587772 /* JSONModel+networking.m */; };
+		A3CD309F1CA3C6A300587772 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30921CA3C6A300587772 /* JSONKeyMapper.m */; };
+		A3CD30A01CA3C6A300587772 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30941CA3C6A300587772 /* JSONValueTransformer.m */; };
+		A3CD30A11CA3C6A300587772 /* LICENSE_jsonmodel.txt in Resources */ = {isa = PBXBuildFile; fileRef = A3CD30951CA3C6A300587772 /* LICENSE_jsonmodel.txt */; };
+		A3CD30A21CA3C6A300587772 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30961CA3C6A300587772 /* README.md */; };
+		A3CD30A51CA3C6C800587772 /* MyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CD30A41CA3C6C800587772 /* MyModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3CD305E1CA3C67F00587772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CD303C1CA3C67F00587772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CD30431CA3C67F00587772;
+			remoteInfo = JSONModelTest;
+		};
+		A3CD30691CA3C67F00587772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3CD303C1CA3C67F00587772 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3CD30431CA3C67F00587772;
+			remoteInfo = JSONModelTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3CD30441CA3C67F00587772 /* JSONModelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONModelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD30481CA3C67F00587772 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3CD304A1CA3C67F00587772 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3CD304B1CA3C67F00587772 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3CD304D1CA3C67F00587772 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3CD304E1CA3C67F00587772 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3CD30511CA3C67F00587772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3CD30531CA3C67F00587772 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3CD30561CA3C67F00587772 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3CD30581CA3C67F00587772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CD305D1CA3C67F00587772 /* JSONModelTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONModelTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD30611CA3C67F00587772 /* JSONModelTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONModelTestTests.m; sourceTree = "<group>"; };
+		A3CD30631CA3C67F00587772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CD30681CA3C67F00587772 /* JSONModelTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONModelTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3CD306C1CA3C67F00587772 /* JSONModelTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONModelTestUITests.m; sourceTree = "<group>"; };
+		A3CD306E1CA3C67F00587772 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3CD307D1CA3C6A300587772 /* JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModel.h; sourceTree = "<group>"; };
+		A3CD307E1CA3C6A300587772 /* JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModel.m; sourceTree = "<group>"; };
+		A3CD307F1CA3C6A300587772 /* JSONModelArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelArray.h; sourceTree = "<group>"; };
+		A3CD30801CA3C6A300587772 /* JSONModelArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelArray.m; sourceTree = "<group>"; };
+		A3CD30811CA3C6A300587772 /* JSONModelClassProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelClassProperty.h; sourceTree = "<group>"; };
+		A3CD30821CA3C6A300587772 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelClassProperty.m; sourceTree = "<group>"; };
+		A3CD30831CA3C6A300587772 /* JSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelError.h; sourceTree = "<group>"; };
+		A3CD30841CA3C6A300587772 /* JSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONModelError.m; sourceTree = "<group>"; };
+		A3CD30861CA3C6A300587772 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		A3CD30871CA3C6A300587772 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		A3CD30881CA3C6A300587772 /* JSONModelLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONModelLib.h; sourceTree = "<group>"; };
+		A3CD308A1CA3C6A300587772 /* JSONAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONAPI.h; sourceTree = "<group>"; };
+		A3CD308B1CA3C6A300587772 /* JSONAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONAPI.m; sourceTree = "<group>"; };
+		A3CD308C1CA3C6A300587772 /* JSONHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONHTTPClient.h; sourceTree = "<group>"; };
+		A3CD308D1CA3C6A300587772 /* JSONHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONHTTPClient.m; sourceTree = "<group>"; };
+		A3CD308E1CA3C6A300587772 /* JSONModel+networking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JSONModel+networking.h"; sourceTree = "<group>"; };
+		A3CD308F1CA3C6A300587772 /* JSONModel+networking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+networking.m"; sourceTree = "<group>"; };
+		A3CD30911CA3C6A300587772 /* JSONKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKeyMapper.h; sourceTree = "<group>"; };
+		A3CD30921CA3C6A300587772 /* JSONKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKeyMapper.m; sourceTree = "<group>"; };
+		A3CD30931CA3C6A300587772 /* JSONValueTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONValueTransformer.h; sourceTree = "<group>"; };
+		A3CD30941CA3C6A300587772 /* JSONValueTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONValueTransformer.m; sourceTree = "<group>"; };
+		A3CD30951CA3C6A300587772 /* LICENSE_jsonmodel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE_jsonmodel.txt; sourceTree = "<group>"; };
+		A3CD30961CA3C6A300587772 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A3CD30A31CA3C6C800587772 /* MyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModel.h; sourceTree = "<group>"; };
+		A3CD30A41CA3C6C800587772 /* MyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3CD30411CA3C67F00587772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD305A1CA3C67F00587772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD30651CA3C67F00587772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3CD303B1CA3C67F00587772 = {
+			isa = PBXGroup;
+			children = (
+				A3CD30A31CA3C6C800587772 /* MyModel.h */,
+				A3CD30A41CA3C6C800587772 /* MyModel.m */,
+				A3CD307A1CA3C6A300587772 /* JSONModel */,
+				A3CD30461CA3C67F00587772 /* JSONModelTest */,
+				A3CD30601CA3C67F00587772 /* JSONModelTestTests */,
+				A3CD306B1CA3C67F00587772 /* JSONModelTestUITests */,
+				A3CD30451CA3C67F00587772 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3CD30451CA3C67F00587772 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD30441CA3C67F00587772 /* JSONModelTest.app */,
+				A3CD305D1CA3C67F00587772 /* JSONModelTestTests.xctest */,
+				A3CD30681CA3C67F00587772 /* JSONModelTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3CD30461CA3C67F00587772 /* JSONModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD304A1CA3C67F00587772 /* AppDelegate.h */,
+				A3CD304B1CA3C67F00587772 /* AppDelegate.m */,
+				A3CD304D1CA3C67F00587772 /* ViewController.h */,
+				A3CD304E1CA3C67F00587772 /* ViewController.m */,
+				A3CD30501CA3C67F00587772 /* Main.storyboard */,
+				A3CD30531CA3C67F00587772 /* Assets.xcassets */,
+				A3CD30551CA3C67F00587772 /* LaunchScreen.storyboard */,
+				A3CD30581CA3C67F00587772 /* Info.plist */,
+				A3CD30471CA3C67F00587772 /* Supporting Files */,
+			);
+			path = JSONModelTest;
+			sourceTree = "<group>";
+		};
+		A3CD30471CA3C67F00587772 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD30481CA3C67F00587772 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3CD30601CA3C67F00587772 /* JSONModelTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD30611CA3C67F00587772 /* JSONModelTestTests.m */,
+				A3CD30631CA3C67F00587772 /* Info.plist */,
+			);
+			path = JSONModelTestTests;
+			sourceTree = "<group>";
+		};
+		A3CD306B1CA3C67F00587772 /* JSONModelTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD306C1CA3C67F00587772 /* JSONModelTestUITests.m */,
+				A3CD306E1CA3C67F00587772 /* Info.plist */,
+			);
+			path = JSONModelTestUITests;
+			sourceTree = "<group>";
+		};
+		A3CD307A1CA3C6A300587772 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD307B1CA3C6A300587772 /* JSONModel */,
+				A3CD30951CA3C6A300587772 /* LICENSE_jsonmodel.txt */,
+				A3CD30961CA3C6A300587772 /* README.md */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		A3CD307B1CA3C6A300587772 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD307C1CA3C6A300587772 /* JSONModel */,
+				A3CD30851CA3C6A300587772 /* JSONModelCategories */,
+				A3CD30881CA3C6A300587772 /* JSONModelLib.h */,
+				A3CD30891CA3C6A300587772 /* JSONModelNetworking */,
+				A3CD30901CA3C6A300587772 /* JSONModelTransformations */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		A3CD307C1CA3C6A300587772 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD307D1CA3C6A300587772 /* JSONModel.h */,
+				A3CD307E1CA3C6A300587772 /* JSONModel.m */,
+				A3CD307F1CA3C6A300587772 /* JSONModelArray.h */,
+				A3CD30801CA3C6A300587772 /* JSONModelArray.m */,
+				A3CD30811CA3C6A300587772 /* JSONModelClassProperty.h */,
+				A3CD30821CA3C6A300587772 /* JSONModelClassProperty.m */,
+				A3CD30831CA3C6A300587772 /* JSONModelError.h */,
+				A3CD30841CA3C6A300587772 /* JSONModelError.m */,
+			);
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		A3CD30851CA3C6A300587772 /* JSONModelCategories */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD30861CA3C6A300587772 /* NSArray+JSONModel.h */,
+				A3CD30871CA3C6A300587772 /* NSArray+JSONModel.m */,
+			);
+			path = JSONModelCategories;
+			sourceTree = "<group>";
+		};
+		A3CD30891CA3C6A300587772 /* JSONModelNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD308A1CA3C6A300587772 /* JSONAPI.h */,
+				A3CD308B1CA3C6A300587772 /* JSONAPI.m */,
+				A3CD308C1CA3C6A300587772 /* JSONHTTPClient.h */,
+				A3CD308D1CA3C6A300587772 /* JSONHTTPClient.m */,
+				A3CD308E1CA3C6A300587772 /* JSONModel+networking.h */,
+				A3CD308F1CA3C6A300587772 /* JSONModel+networking.m */,
+			);
+			path = JSONModelNetworking;
+			sourceTree = "<group>";
+		};
+		A3CD30901CA3C6A300587772 /* JSONModelTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				A3CD30911CA3C6A300587772 /* JSONKeyMapper.h */,
+				A3CD30921CA3C6A300587772 /* JSONKeyMapper.m */,
+				A3CD30931CA3C6A300587772 /* JSONValueTransformer.h */,
+				A3CD30941CA3C6A300587772 /* JSONValueTransformer.m */,
+			);
+			path = JSONModelTransformations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3CD30431CA3C67F00587772 /* JSONModelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD30711CA3C67F00587772 /* Build configuration list for PBXNativeTarget "JSONModelTest" */;
+			buildPhases = (
+				A3CD30401CA3C67F00587772 /* Sources */,
+				A3CD30411CA3C67F00587772 /* Frameworks */,
+				A3CD30421CA3C67F00587772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModelTest;
+			productName = JSONModelTest;
+			productReference = A3CD30441CA3C67F00587772 /* JSONModelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3CD305C1CA3C67F00587772 /* JSONModelTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD30741CA3C67F00587772 /* Build configuration list for PBXNativeTarget "JSONModelTestTests" */;
+			buildPhases = (
+				A3CD30591CA3C67F00587772 /* Sources */,
+				A3CD305A1CA3C67F00587772 /* Frameworks */,
+				A3CD305B1CA3C67F00587772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CD305F1CA3C67F00587772 /* PBXTargetDependency */,
+			);
+			name = JSONModelTestTests;
+			productName = JSONModelTestTests;
+			productReference = A3CD305D1CA3C67F00587772 /* JSONModelTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3CD30671CA3C67F00587772 /* JSONModelTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3CD30771CA3C67F00587772 /* Build configuration list for PBXNativeTarget "JSONModelTestUITests" */;
+			buildPhases = (
+				A3CD30641CA3C67F00587772 /* Sources */,
+				A3CD30651CA3C67F00587772 /* Frameworks */,
+				A3CD30661CA3C67F00587772 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3CD306A1CA3C67F00587772 /* PBXTargetDependency */,
+			);
+			name = JSONModelTestUITests;
+			productName = JSONModelTestUITests;
+			productReference = A3CD30681CA3C67F00587772 /* JSONModelTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3CD303C1CA3C67F00587772 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = beyondSoft;
+				TargetAttributes = {
+					A3CD30431CA3C67F00587772 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A3CD305C1CA3C67F00587772 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3CD30431CA3C67F00587772;
+					};
+					A3CD30671CA3C67F00587772 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3CD30431CA3C67F00587772;
+					};
+				};
+			};
+			buildConfigurationList = A3CD303F1CA3C67F00587772 /* Build configuration list for PBXProject "JSONModelTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3CD303B1CA3C67F00587772;
+			productRefGroup = A3CD30451CA3C67F00587772 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3CD30431CA3C67F00587772 /* JSONModelTest */,
+				A3CD305C1CA3C67F00587772 /* JSONModelTestTests */,
+				A3CD30671CA3C67F00587772 /* JSONModelTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3CD30421CA3C67F00587772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD30A11CA3C6A300587772 /* LICENSE_jsonmodel.txt in Resources */,
+				A3CD30571CA3C67F00587772 /* LaunchScreen.storyboard in Resources */,
+				A3CD30541CA3C67F00587772 /* Assets.xcassets in Resources */,
+				A3CD30521CA3C67F00587772 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD305B1CA3C67F00587772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD30661CA3C67F00587772 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3CD30401CA3C67F00587772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD309D1CA3C6A300587772 /* JSONHTTPClient.m in Sources */,
+				A3CD30981CA3C6A300587772 /* JSONModelArray.m in Sources */,
+				A3CD309A1CA3C6A300587772 /* JSONModelError.m in Sources */,
+				A3CD309C1CA3C6A300587772 /* JSONAPI.m in Sources */,
+				A3CD30A01CA3C6A300587772 /* JSONValueTransformer.m in Sources */,
+				A3CD304F1CA3C67F00587772 /* ViewController.m in Sources */,
+				A3CD30A51CA3C6C800587772 /* MyModel.m in Sources */,
+				A3CD30971CA3C6A300587772 /* JSONModel.m in Sources */,
+				A3CD309F1CA3C6A300587772 /* JSONKeyMapper.m in Sources */,
+				A3CD309E1CA3C6A300587772 /* JSONModel+networking.m in Sources */,
+				A3CD309B1CA3C6A300587772 /* NSArray+JSONModel.m in Sources */,
+				A3CD30A21CA3C6A300587772 /* README.md in Sources */,
+				A3CD304C1CA3C67F00587772 /* AppDelegate.m in Sources */,
+				A3CD30491CA3C67F00587772 /* main.m in Sources */,
+				A3CD30991CA3C6A300587772 /* JSONModelClassProperty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD30591CA3C67F00587772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD30621CA3C67F00587772 /* JSONModelTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CD30641CA3C67F00587772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CD306D1CA3C67F00587772 /* JSONModelTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3CD305F1CA3C67F00587772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CD30431CA3C67F00587772 /* JSONModelTest */;
+			targetProxy = A3CD305E1CA3C67F00587772 /* PBXContainerItemProxy */;
+		};
+		A3CD306A1CA3C67F00587772 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3CD30431CA3C67F00587772 /* JSONModelTest */;
+			targetProxy = A3CD30691CA3C67F00587772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3CD30501CA3C67F00587772 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CD30511CA3C67F00587772 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3CD30551CA3C67F00587772 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3CD30561CA3C67F00587772 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3CD306F1CA3C67F00587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3CD30701CA3C67F00587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3CD30721CA3C67F00587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSONModelTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.JSONModelTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3CD30731CA3C67F00587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JSONModelTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.JSONModelTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3CD30751CA3C67F00587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSONModelTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.JSONModelTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONModelTest.app/JSONModelTest";
+			};
+			name = Debug;
+		};
+		A3CD30761CA3C67F00587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JSONModelTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.JSONModelTestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSONModelTest.app/JSONModelTest";
+			};
+			name = Release;
+		};
+		A3CD30781CA3C67F00587772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSONModelTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.JSONModelTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSONModelTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3CD30791CA3C67F00587772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JSONModelTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.JSONModelTestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JSONModelTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3CD303F1CA3C67F00587772 /* Build configuration list for PBXProject "JSONModelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD306F1CA3C67F00587772 /* Debug */,
+				A3CD30701CA3C67F00587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3CD30711CA3C67F00587772 /* Build configuration list for PBXNativeTarget "JSONModelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD30721CA3C67F00587772 /* Debug */,
+				A3CD30731CA3C67F00587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3CD30741CA3C67F00587772 /* Build configuration list for PBXNativeTarget "JSONModelTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD30751CA3C67F00587772 /* Debug */,
+				A3CD30761CA3C67F00587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3CD30771CA3C67F00587772 /* Build configuration list for PBXNativeTarget "JSONModelTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3CD30781CA3C67F00587772 /* Debug */,
+				A3CD30791CA3C67F00587772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3CD303C1CA3C67F00587772 /* Project object */;
+}

@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3BCAD691D212CE1009B97BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BCAD681D212CE1009B97BC /* main.m */; };
+		A3BCAD6C1D212CE1009B97BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BCAD6B1D212CE1009B97BC /* AppDelegate.m */; };
+		A3BCAD6F1D212CE1009B97BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BCAD6E1D212CE1009B97BC /* ViewController.m */; };
+		A3BCAD721D212CE1009B97BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BCAD701D212CE1009B97BC /* Main.storyboard */; };
+		A3BCAD741D212CE1009B97BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BCAD731D212CE1009B97BC /* Assets.xcassets */; };
+		A3BCAD771D212CE1009B97BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BCAD751D212CE1009B97BC /* LaunchScreen.storyboard */; };
+		A3BCAD821D212CE1009B97BC /* ProtocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BCAD811D212CE1009B97BC /* ProtocalTests.m */; };
+		A3BCAD8D1D212CE1009B97BC /* ProtocalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BCAD8C1D212CE1009B97BC /* ProtocalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3BCAD7E1D212CE1009B97BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BCAD5C1D212CE1009B97BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BCAD631D212CE1009B97BC;
+			remoteInfo = Protocal;
+		};
+		A3BCAD891D212CE1009B97BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BCAD5C1D212CE1009B97BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BCAD631D212CE1009B97BC;
+			remoteInfo = Protocal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3BCAD641D212CE1009B97BC /* Protocal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Protocal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BCAD681D212CE1009B97BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3BCAD6A1D212CE1009B97BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A3BCAD6B1D212CE1009B97BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A3BCAD6D1D212CE1009B97BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3BCAD6E1D212CE1009B97BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3BCAD711D212CE1009B97BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3BCAD731D212CE1009B97BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3BCAD761D212CE1009B97BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3BCAD781D212CE1009B97BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BCAD7D1D212CE1009B97BC /* ProtocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BCAD811D212CE1009B97BC /* ProtocalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocalTests.m; sourceTree = "<group>"; };
+		A3BCAD831D212CE1009B97BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3BCAD881D212CE1009B97BC /* ProtocalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BCAD8C1D212CE1009B97BC /* ProtocalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocalUITests.m; sourceTree = "<group>"; };
+		A3BCAD8E1D212CE1009B97BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BCAD611D212CE1009B97BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAD7A1D212CE1009B97BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAD851D212CE1009B97BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3BCAD5B1D212CE1009B97BC = {
+			isa = PBXGroup;
+			children = (
+				A3BCAD661D212CE1009B97BC /* Protocal */,
+				A3BCAD801D212CE1009B97BC /* ProtocalTests */,
+				A3BCAD8B1D212CE1009B97BC /* ProtocalUITests */,
+				A3BCAD651D212CE1009B97BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BCAD651D212CE1009B97BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCAD641D212CE1009B97BC /* Protocal.app */,
+				A3BCAD7D1D212CE1009B97BC /* ProtocalTests.xctest */,
+				A3BCAD881D212CE1009B97BC /* ProtocalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3BCAD661D212CE1009B97BC /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCAD6A1D212CE1009B97BC /* AppDelegate.h */,
+				A3BCAD6B1D212CE1009B97BC /* AppDelegate.m */,
+				A3BCAD6D1D212CE1009B97BC /* ViewController.h */,
+				A3BCAD6E1D212CE1009B97BC /* ViewController.m */,
+				A3BCAD701D212CE1009B97BC /* Main.storyboard */,
+				A3BCAD731D212CE1009B97BC /* Assets.xcassets */,
+				A3BCAD751D212CE1009B97BC /* LaunchScreen.storyboard */,
+				A3BCAD781D212CE1009B97BC /* Info.plist */,
+				A3BCAD671D212CE1009B97BC /* Supporting Files */,
+			);
+			path = Protocal;
+			sourceTree = "<group>";
+		};
+		A3BCAD671D212CE1009B97BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCAD681D212CE1009B97BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3BCAD801D212CE1009B97BC /* ProtocalTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCAD811D212CE1009B97BC /* ProtocalTests.m */,
+				A3BCAD831D212CE1009B97BC /* Info.plist */,
+			);
+			path = ProtocalTests;
+			sourceTree = "<group>";
+		};
+		A3BCAD8B1D212CE1009B97BC /* ProtocalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BCAD8C1D212CE1009B97BC /* ProtocalUITests.m */,
+				A3BCAD8E1D212CE1009B97BC /* Info.plist */,
+			);
+			path = ProtocalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3BCAD631D212CE1009B97BC /* Protocal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BCAD911D212CE1009B97BC /* Build configuration list for PBXNativeTarget "Protocal" */;
+			buildPhases = (
+				A3BCAD601D212CE1009B97BC /* Sources */,
+				A3BCAD611D212CE1009B97BC /* Frameworks */,
+				A3BCAD621D212CE1009B97BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protocal;
+			productName = Protocal;
+			productReference = A3BCAD641D212CE1009B97BC /* Protocal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3BCAD7C1D212CE1009B97BC /* ProtocalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BCAD941D212CE1009B97BC /* Build configuration list for PBXNativeTarget "ProtocalTests" */;
+			buildPhases = (
+				A3BCAD791D212CE1009B97BC /* Sources */,
+				A3BCAD7A1D212CE1009B97BC /* Frameworks */,
+				A3BCAD7B1D212CE1009B97BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BCAD7F1D212CE1009B97BC /* PBXTargetDependency */,
+			);
+			name = ProtocalTests;
+			productName = ProtocalTests;
+			productReference = A3BCAD7D1D212CE1009B97BC /* ProtocalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3BCAD871D212CE1009B97BC /* ProtocalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BCAD971D212CE1009B97BC /* Build configuration list for PBXNativeTarget "ProtocalUITests" */;
+			buildPhases = (
+				A3BCAD841D212CE1009B97BC /* Sources */,
+				A3BCAD851D212CE1009B97BC /* Frameworks */,
+				A3BCAD861D212CE1009B97BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BCAD8A1D212CE1009B97BC /* PBXTargetDependency */,
+			);
+			name = ProtocalUITests;
+			productName = ProtocalUITests;
+			productReference = A3BCAD881D212CE1009B97BC /* ProtocalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3BCAD5C1D212CE1009B97BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = beyondSoft;
+				TargetAttributes = {
+					A3BCAD631D212CE1009B97BC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A3BCAD7C1D212CE1009B97BC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3BCAD631D212CE1009B97BC;
+					};
+					A3BCAD871D212CE1009B97BC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A3BCAD631D212CE1009B97BC;
+					};
+				};
+			};
+			buildConfigurationList = A3BCAD5F1D212CE1009B97BC /* Build configuration list for PBXProject "Protocal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3BCAD5B1D212CE1009B97BC;
+			productRefGroup = A3BCAD651D212CE1009B97BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BCAD631D212CE1009B97BC /* Protocal */,
+				A3BCAD7C1D212CE1009B97BC /* ProtocalTests */,
+				A3BCAD871D212CE1009B97BC /* ProtocalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3BCAD621D212CE1009B97BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BCAD771D212CE1009B97BC /* LaunchScreen.storyboard in Resources */,
+				A3BCAD741D212CE1009B97BC /* Assets.xcassets in Resources */,
+				A3BCAD721D212CE1009B97BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAD7B1D212CE1009B97BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAD861D212CE1009B97BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BCAD601D212CE1009B97BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BCAD6F1D212CE1009B97BC /* ViewController.m in Sources */,
+				A3BCAD6C1D212CE1009B97BC /* AppDelegate.m in Sources */,
+				A3BCAD691D212CE1009B97BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAD791D212CE1009B97BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BCAD821D212CE1009B97BC /* ProtocalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BCAD841D212CE1009B97BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BCAD8D1D212CE1009B97BC /* ProtocalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3BCAD7F1D212CE1009B97BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BCAD631D212CE1009B97BC /* Protocal */;
+			targetProxy = A3BCAD7E1D212CE1009B97BC /* PBXContainerItemProxy */;
+		};
+		A3BCAD8A1D212CE1009B97BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BCAD631D212CE1009B97BC /* Protocal */;
+			targetProxy = A3BCAD891D212CE1009B97BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3BCAD701D212CE1009B97BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BCAD711D212CE1009B97BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3BCAD751D212CE1009B97BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BCAD761D212CE1009B97BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3BCAD8F1D212CE1009B97BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3BCAD901D212CE1009B97BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3BCAD921D212CE1009B97BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Protocal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.Protocal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A3BCAD931D212CE1009B97BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Protocal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.Protocal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3BCAD951D212CE1009B97BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProtocalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ProtocalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocal.app/Protocal";
+			};
+			name = Debug;
+		};
+		A3BCAD961D212CE1009B97BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ProtocalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ProtocalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Protocal.app/Protocal";
+			};
+			name = Release;
+		};
+		A3BCAD981D212CE1009B97BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProtocalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ProtocalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Protocal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A3BCAD991D212CE1009B97BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ProtocalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.ProtocalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Protocal;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3BCAD5F1D212CE1009B97BC /* Build configuration list for PBXProject "Protocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BCAD8F1D212CE1009B97BC /* Debug */,
+				A3BCAD901D212CE1009B97BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BCAD911D212CE1009B97BC /* Build configuration list for PBXNativeTarget "Protocal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BCAD921D212CE1009B97BC /* Debug */,
+				A3BCAD931D212CE1009B97BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3BCAD941D212CE1009B97BC /* Build configuration list for PBXNativeTarget "ProtocalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BCAD951D212CE1009B97BC /* Debug */,
+				A3BCAD961D212CE1009B97BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A3BCAD971D212CE1009B97BC /* Build configuration list for PBXNativeTarget "ProtocalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BCAD981D212CE1009B97BC /* Debug */,
+				A3BCAD991D212CE1009B97BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3BCAD5C1D212CE1009B97BC /* Project object */;
+}

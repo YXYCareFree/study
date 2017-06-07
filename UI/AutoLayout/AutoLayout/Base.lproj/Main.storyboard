@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bq3-zP-uvS">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="55" y="65" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d17-hT-pZm">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="179" y="65" width="42" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-91-Lm3">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <color key="backgroundColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="297" y="65" width="42" height="21"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="d17-hT-pZm" firstAttribute="leading" secondItem="Bq3-zP-uvS" secondAttribute="trailing" id="4ML-ee-FXp"/>
+                            <constraint firstItem="Bq3-zP-uvS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="J1L-AX-4vc"/>
+                            <constraint firstItem="yhc-91-Lm3" firstAttribute="leading" secondItem="d17-hT-pZm" secondAttribute="trailing" id="QBg-P7-ysB"/>
+                            <constraint firstItem="Bq3-zP-uvS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="SQZ-Ek-Bde"/>
+                            <constraint firstItem="yhc-91-Lm3" firstAttribute="width" secondItem="Bq3-zP-uvS" secondAttribute="width" id="aXS-7J-jJw"/>
+                            <constraint firstItem="d17-hT-pZm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="b9V-gX-1Jy"/>
+                            <constraint firstItem="yhc-91-Lm3" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="d2W-83-sre"/>
+                            <constraint firstItem="d17-hT-pZm" firstAttribute="width" secondItem="Bq3-zP-uvS" secondAttribute="width" id="gIY-cV-JyE"/>
+                            <constraint firstItem="d17-hT-pZm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="olc-Vo-efH"/>
+                            <constraint firstAttribute="trailing" secondItem="yhc-91-Lm3" secondAttribute="trailing" id="tXp-Vp-jf5"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Bq3-zP-uvS"/>
+                                <exclude reference="d17-hT-pZm"/>
+                                <exclude reference="yhc-91-Lm3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="J1L-AX-4vc"/>
+                                <exclude reference="SQZ-Ek-Bde"/>
+                                <exclude reference="4ML-ee-FXp"/>
+                                <exclude reference="b9V-gX-1Jy"/>
+                                <exclude reference="gIY-cV-JyE"/>
+                                <exclude reference="olc-Vo-efH"/>
+                                <exclude reference="QBg-P7-ysB"/>
+                                <exclude reference="aXS-7J-jJw"/>
+                                <exclude reference="d2W-83-sre"/>
+                                <exclude reference="tXp-Vp-jf5"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Bq3-zP-uvS"/>
+                                <include reference="d17-hT-pZm"/>
+                                <include reference="yhc-91-Lm3"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="J1L-AX-4vc"/>
+                                <include reference="SQZ-Ek-Bde"/>
+                                <include reference="4ML-ee-FXp"/>
+                                <include reference="b9V-gX-1Jy"/>
+                                <include reference="gIY-cV-JyE"/>
+                                <include reference="olc-Vo-efH"/>
+                                <include reference="QBg-P7-ysB"/>
+                                <include reference="aXS-7J-jJw"/>
+                                <include reference="d2W-83-sre"/>
+                                <include reference="tXp-Vp-jf5"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

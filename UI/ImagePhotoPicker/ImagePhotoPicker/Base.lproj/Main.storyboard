@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W8O-gA-ayI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wkr-KQ-CPh"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="O85-UT-O60">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jFu-Rh-vve">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="75" y="48" width="240" height="128"/>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="O85-UT-O60" secondAttribute="bottom" constant="127" id="2go-XI-fby"/>
+                            <constraint firstAttribute="trailing" secondItem="O85-UT-O60" secondAttribute="trailing" constant="85" id="4MG-Cm-xQI"/>
+                            <constraint firstItem="W8O-gA-ayI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="172" id="DsX-22-pFC"/>
+                            <constraint firstItem="O85-UT-O60" firstAttribute="top" secondItem="W8O-gA-ayI" secondAttribute="bottom" constant="61" id="Gk7-cY-sBY"/>
+                            <constraint firstItem="O85-UT-O60" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="75" id="Tor-lT-6c0"/>
+                            <constraint firstItem="O85-UT-O60" firstAttribute="top" secondItem="W8O-gA-ayI" secondAttribute="bottom" constant="61" id="fDJ-eQ-Lyq"/>
+                            <constraint firstItem="W8O-gA-ayI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="234" id="pxn-a7-wzp"/>
+                            <constraint firstAttribute="trailing" secondItem="W8O-gA-ayI" secondAttribute="trailing" constant="182" id="wxz-de-Etl"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="W8O-gA-ayI"/>
+                                <exclude reference="O85-UT-O60"/>
+                                <exclude reference="jFu-Rh-vve"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="2go-XI-fby"/>
+                                <exclude reference="DsX-22-pFC"/>
+                                <exclude reference="pxn-a7-wzp"/>
+                                <exclude reference="wxz-de-Etl"/>
+                                <exclude reference="4MG-Cm-xQI"/>
+                                <exclude reference="Gk7-cY-sBY"/>
+                                <exclude reference="Tor-lT-6c0"/>
+                                <exclude reference="fDJ-eQ-Lyq"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="W8O-gA-ayI"/>
+                                <include reference="O85-UT-O60"/>
+                                <include reference="jFu-Rh-vve"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="2go-XI-fby"/>
+                                <include reference="DsX-22-pFC"/>
+                                <include reference="pxn-a7-wzp"/>
+                                <include reference="wxz-de-Etl"/>
+                                <include reference="4MG-Cm-xQI"/>
+                                <include reference="Gk7-cY-sBY"/>
+                                <include reference="Tor-lT-6c0"/>
+                                <include reference="fDJ-eQ-Lyq"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="O85-UT-O60" id="R9f-u9-5rS"/>
+                        <outlet property="imageView2" destination="jFu-Rh-vve" id="qk5-42-nCC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="472.5" y="275"/>
+        </scene>
+    </scenes>
+</document>

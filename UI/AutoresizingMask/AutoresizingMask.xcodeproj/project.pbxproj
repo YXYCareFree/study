@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A346839D1D264227000BC357 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A346839C1D264227000BC357 /* main.m */; };
+		A34683A01D264227000BC357 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A346839F1D264227000BC357 /* AppDelegate.m */; };
+		A34683A31D264227000BC357 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A34683A21D264227000BC357 /* ViewController.m */; };
+		A34683A61D264227000BC357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34683A41D264227000BC357 /* Main.storyboard */; };
+		A34683A81D264227000BC357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34683A71D264227000BC357 /* Assets.xcassets */; };
+		A34683AB1D264227000BC357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34683A91D264227000BC357 /* LaunchScreen.storyboard */; };
+		A34683B61D264228000BC357 /* AutoresizingMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34683B51D264228000BC357 /* AutoresizingMaskTests.m */; };
+		A34683C11D264228000BC357 /* AutoresizingMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A34683C01D264228000BC357 /* AutoresizingMaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34683B21D264228000BC357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34683901D264227000BC357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34683971D264227000BC357;
+			remoteInfo = AutoresizingMask;
+		};
+		A34683BD1D264228000BC357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34683901D264227000BC357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34683971D264227000BC357;
+			remoteInfo = AutoresizingMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A34683981D264227000BC357 /* AutoresizingMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoresizingMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A346839C1D264227000BC357 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A346839E1D264227000BC357 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A346839F1D264227000BC357 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A34683A11D264227000BC357 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A34683A21D264227000BC357 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A34683A51D264227000BC357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A34683A71D264227000BC357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34683AA1D264227000BC357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A34683AC1D264227000BC357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34683B11D264228000BC357 /* AutoresizingMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoresizingMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34683B51D264228000BC357 /* AutoresizingMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoresizingMaskTests.m; sourceTree = "<group>"; };
+		A34683B71D264228000BC357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34683BC1D264228000BC357 /* AutoresizingMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoresizingMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34683C01D264228000BC357 /* AutoresizingMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoresizingMaskUITests.m; sourceTree = "<group>"; };
+		A34683C21D264228000BC357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34683951D264227000BC357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34683AE1D264228000BC357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34683B91D264228000BC357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A346838F1D264227000BC357 = {
+			isa = PBXGroup;
+			children = (
+				A346839A1D264227000BC357 /* AutoresizingMask */,
+				A34683B41D264228000BC357 /* AutoresizingMaskTests */,
+				A34683BF1D264228000BC357 /* AutoresizingMaskUITests */,
+				A34683991D264227000BC357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A34683991D264227000BC357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34683981D264227000BC357 /* AutoresizingMask.app */,
+				A34683B11D264228000BC357 /* AutoresizingMaskTests.xctest */,
+				A34683BC1D264228000BC357 /* AutoresizingMaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A346839A1D264227000BC357 /* AutoresizingMask */ = {
+			isa = PBXGroup;
+			children = (
+				A346839E1D264227000BC357 /* AppDelegate.h */,
+				A346839F1D264227000BC357 /* AppDelegate.m */,
+				A34683A11D264227000BC357 /* ViewController.h */,
+				A34683A21D264227000BC357 /* ViewController.m */,
+				A34683A41D264227000BC357 /* Main.storyboard */,
+				A34683A71D264227000BC357 /* Assets.xcassets */,
+				A34683A91D264227000BC357 /* LaunchScreen.storyboard */,
+				A34683AC1D264227000BC357 /* Info.plist */,
+				A346839B1D264227000BC357 /* Supporting Files */,
+			);
+			path = AutoresizingMask;
+			sourceTree = "<group>";
+		};
+		A346839B1D264227000BC357 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A346839C1D264227000BC357 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A34683B41D264228000BC357 /* AutoresizingMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A34683B51D264228000BC357 /* AutoresizingMaskTests.m */,
+				A34683B71D264228000BC357 /* Info.plist */,
+			);
+			path = AutoresizingMaskTests;
+			sourceTree = "<group>";
+		};
+		A34683BF1D264228000BC357 /* AutoresizingMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A34683C01D264228000BC357 /* AutoresizingMaskUITests.m */,
+				A34683C21D264228000BC357 /* Info.plist */,
+			);
+			path = AutoresizingMaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34683971D264227000BC357 /* AutoresizingMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34683C51D264228000BC357 /* Build configuration list for PBXNativeTarget "AutoresizingMask" */;
+			buildPhases = (
+				A34683941D264227000BC357 /* Sources */,
+				A34683951D264227000BC357 /* Frameworks */,
+				A34683961D264227000BC357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoresizingMask;
+			productName = AutoresizingMask;
+			productReference = A34683981D264227000BC357 /* AutoresizingMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34683B01D264228000BC357 /* AutoresizingMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34683C81D264228000BC357 /* Build configuration list for PBXNativeTarget "AutoresizingMaskTests" */;
+			buildPhases = (
+				A34683AD1D264228000BC357 /* Sources */,
+				A34683AE1D264228000BC357 /* Frameworks */,
+				A34683AF1D264228000BC357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34683B31D264228000BC357 /* PBXTargetDependency */,
+			);
+			name = AutoresizingMaskTests;
+			productName = AutoresizingMaskTests;
+			productReference = A34683B11D264228000BC357 /* AutoresizingMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A34683BB1D264228000BC357 /* AutoresizingMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34683CB1D264228000BC357 /* Build configuration list for PBXNativeTarget "AutoresizingMaskUITests" */;
+			buildPhases = (
+				A34683B81D264228000BC357 /* Sources */,
+				A34683B91D264228000BC357 /* Frameworks */,
+				A34683BA1D264228000BC357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34683BE1D264228000BC357 /* PBXTargetDependency */,
+			);
+			name = AutoresizingMaskUITests;
+			productName = AutoresizingMaskUITests;
+			productReference = A34683BC1D264228000BC357 /* AutoresizingMaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34683901D264227000BC357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = beyondSoft;
+				TargetAttributes = {
+					A34683971D264227000BC357 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					A34683B01D264228000BC357 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A34683971D264227000BC357;
+					};
+					A34683BB1D264228000BC357 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = A34683971D264227000BC357;
+					};
+				};
+			};
+			buildConfigurationList = A34683931D264227000BC357 /* Build configuration list for PBXProject "AutoresizingMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A346838F1D264227000BC357;
+			productRefGroup = A34683991D264227000BC357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34683971D264227000BC357 /* AutoresizingMask */,
+				A34683B01D264228000BC357 /* AutoresizingMaskTests */,
+				A34683BB1D264228000BC357 /* AutoresizingMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34683961D264227000BC357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34683AB1D264227000BC357 /* LaunchScreen.storyboard in Resources */,
+				A34683A81D264227000BC357 /* Assets.xcassets in Resources */,
+				A34683A61D264227000BC357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34683AF1D264228000BC357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34683BA1D264228000BC357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34683941D264227000BC357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34683A31D264227000BC357 /* ViewController.m in Sources */,
+				A34683A01D264227000BC357 /* AppDelegate.m in Sources */,
+				A346839D1D264227000BC357 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34683AD1D264228000BC357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34683B61D264228000BC357 /* AutoresizingMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34683B81D264228000BC357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34683C11D264228000BC357 /* AutoresizingMaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34683B31D264228000BC357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34683971D264227000BC357 /* AutoresizingMask */;
+			targetProxy = A34683B21D264228000BC357 /* PBXContainerItemProxy */;
+		};
+		A34683BE1D264228000BC357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34683971D264227000BC357 /* AutoresizingMask */;
+			targetProxy = A34683BD1D264228000BC357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A34683A41D264227000BC357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34683A51D264227000BC357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A34683A91D264227000BC357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34683AA1D264227000BC357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34683C31D264228000BC357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34683C41D264228000BC357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34683C61D264228000BC357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoresizingMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.AutoresizingMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A34683C71D264228000BC357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AutoresizingMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.AutoresizingMask";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A34683C91D264228000BC357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoresizingMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.AutoresizingMaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoresizingMask.app/AutoresizingMask";
+			};
+			name = Debug;
+		};
+		A34683CA1D264228000BC357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AutoresizingMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.AutoresizingMaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoresizingMask.app/AutoresizingMask";
+			};
+			name = Release;
+		};
+		A34683CC1D264228000BC357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoresizingMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.AutoresizingMaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoresizingMask;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A34683CD1D264228000BC357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AutoresizingMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.AutoresizingMaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AutoresizingMask;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34683931D264227000BC357 /* Build configuration list for PBXProject "AutoresizingMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34683C31D264228000BC357 /* Debug */,
+				A34683C41D264228000BC357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34683C51D264228000BC357 /* Build configuration list for PBXNativeTarget "AutoresizingMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34683C61D264228000BC357 /* Debug */,
+				A34683C71D264228000BC357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A34683C81D264228000BC357 /* Build configuration list for PBXNativeTarget "AutoresizingMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34683C91D264228000BC357 /* Debug */,
+				A34683CA1D264228000BC357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A34683CB1D264228000BC357 /* Build configuration list for PBXNativeTarget "AutoresizingMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34683CC1D264228000BC357 /* Debug */,
+				A34683CD1D264228000BC357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A34683901D264227000BC357 /* Project object */;
+}

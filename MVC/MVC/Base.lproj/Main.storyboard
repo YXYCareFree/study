@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ta0-eX-6Dt">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="logIn"/>
+                                <connections>
+                                    <action selector="logIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5JO-IO-C6l"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="用户名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0oO-WK-HnL">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTK-By-ksO">
+                                <rect key="frame" x="-25" y="-30" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FTK-By-ksO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="176" id="69v-mo-MXI"/>
+                            <constraint firstItem="FTK-By-ksO" firstAttribute="top" secondItem="0oO-WK-HnL" secondAttribute="bottom" constant="32" id="8lY-JR-T4V"/>
+                            <constraint firstAttribute="trailing" secondItem="FTK-By-ksO" secondAttribute="trailing" constant="82" id="E2Q-nA-u4i"/>
+                            <constraint firstAttribute="trailing" secondItem="Ta0-eX-6Dt" secondAttribute="trailing" constant="117" id="Epd-Ic-BNF"/>
+                            <constraint firstItem="Ta0-eX-6Dt" firstAttribute="top" secondItem="FTK-By-ksO" secondAttribute="bottom" constant="37" id="Gm3-yT-vFk"/>
+                            <constraint firstItem="0oO-WK-HnL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="176" id="VeV-Ln-TsB"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ta0-eX-6Dt" secondAttribute="bottom" constant="345" id="YT5-b9-gvD"/>
+                            <constraint firstItem="Ta0-eX-6Dt" firstAttribute="top" secondItem="FTK-By-ksO" secondAttribute="bottom" constant="37" id="m6d-Ff-XpI"/>
+                            <constraint firstItem="FTK-By-ksO" firstAttribute="top" secondItem="0oO-WK-HnL" secondAttribute="bottom" constant="32" id="sc0-Wh-N6n"/>
+                            <constraint firstItem="0oO-WK-HnL" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="76" id="tCf-I5-0Dk"/>
+                            <constraint firstItem="Ta0-eX-6Dt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="193" id="wsH-sz-3Hp"/>
+                            <constraint firstAttribute="trailing" secondItem="0oO-WK-HnL" secondAttribute="trailing" constant="82" id="yGo-uU-aY6"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Ta0-eX-6Dt"/>
+                                <exclude reference="0oO-WK-HnL"/>
+                                <exclude reference="FTK-By-ksO"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="VeV-Ln-TsB"/>
+                                <exclude reference="tCf-I5-0Dk"/>
+                                <exclude reference="yGo-uU-aY6"/>
+                                <exclude reference="69v-mo-MXI"/>
+                                <exclude reference="8lY-JR-T4V"/>
+                                <exclude reference="E2Q-nA-u4i"/>
+                                <exclude reference="sc0-Wh-N6n"/>
+                                <exclude reference="Epd-Ic-BNF"/>
+                                <exclude reference="Gm3-yT-vFk"/>
+                                <exclude reference="m6d-Ff-XpI"/>
+                                <exclude reference="wsH-sz-3Hp"/>
+                                <exclude reference="YT5-b9-gvD"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="Ta0-eX-6Dt"/>
+                                <include reference="0oO-WK-HnL"/>
+                                <include reference="FTK-By-ksO"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="VeV-Ln-TsB"/>
+                                <include reference="tCf-I5-0Dk"/>
+                                <include reference="yGo-uU-aY6"/>
+                                <include reference="69v-mo-MXI"/>
+                                <include reference="8lY-JR-T4V"/>
+                                <include reference="E2Q-nA-u4i"/>
+                                <include reference="sc0-Wh-N6n"/>
+                                <include reference="Epd-Ic-BNF"/>
+                                <include reference="Gm3-yT-vFk"/>
+                                <include reference="m6d-Ff-XpI"/>
+                                <include reference="wsH-sz-3Hp"/>
+                                <include reference="YT5-b9-gvD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="psWord" destination="FTK-By-ksO" id="N9g-TV-0uj"/>
+                        <outlet property="userName" destination="0oO-WK-HnL" id="WvE-GC-LuI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="415"/>
+        </scene>
+    </scenes>
+</document>

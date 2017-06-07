@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A344C19C1D80021600820004 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A344C19B1D80021600820004 /* main.m */; };
+		A344C19F1D80021600820004 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A344C19E1D80021600820004 /* AppDelegate.m */; };
+		A344C1A21D80021600820004 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A344C1A11D80021600820004 /* ViewController.m */; };
+		A344C1A51D80021600820004 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A344C1A31D80021600820004 /* Main.storyboard */; };
+		A344C1A71D80021600820004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A344C1A61D80021600820004 /* Assets.xcassets */; };
+		A344C1AA1D80021600820004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A344C1A81D80021600820004 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A344C1971D80021600820004 /* CalendarEventManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarEventManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A344C19B1D80021600820004 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A344C19D1D80021600820004 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A344C19E1D80021600820004 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A344C1A01D80021600820004 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A344C1A11D80021600820004 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A344C1A41D80021600820004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A344C1A61D80021600820004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A344C1A91D80021600820004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A344C1AB1D80021600820004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A344C1941D80021600820004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A344C18E1D80021600820004 = {
+			isa = PBXGroup;
+			children = (
+				A344C1991D80021600820004 /* CalendarEventManager */,
+				A344C1981D80021600820004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A344C1981D80021600820004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A344C1971D80021600820004 /* CalendarEventManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A344C1991D80021600820004 /* CalendarEventManager */ = {
+			isa = PBXGroup;
+			children = (
+				A344C19D1D80021600820004 /* AppDelegate.h */,
+				A344C19E1D80021600820004 /* AppDelegate.m */,
+				A344C1A01D80021600820004 /* ViewController.h */,
+				A344C1A11D80021600820004 /* ViewController.m */,
+				A344C1A31D80021600820004 /* Main.storyboard */,
+				A344C1A61D80021600820004 /* Assets.xcassets */,
+				A344C1A81D80021600820004 /* LaunchScreen.storyboard */,
+				A344C1AB1D80021600820004 /* Info.plist */,
+				A344C19A1D80021600820004 /* Supporting Files */,
+			);
+			path = CalendarEventManager;
+			sourceTree = "<group>";
+		};
+		A344C19A1D80021600820004 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A344C19B1D80021600820004 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A344C1961D80021600820004 /* CalendarEventManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A344C1AE1D80021600820004 /* Build configuration list for PBXNativeTarget "CalendarEventManager" */;
+			buildPhases = (
+				A344C1931D80021600820004 /* Sources */,
+				A344C1941D80021600820004 /* Frameworks */,
+				A344C1951D80021600820004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarEventManager;
+			productName = CalendarEventManager;
+			productReference = A344C1971D80021600820004 /* CalendarEventManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A344C18F1D80021600820004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = beyondSoft;
+				TargetAttributes = {
+					A344C1961D80021600820004 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A344C1921D80021600820004 /* Build configuration list for PBXProject "CalendarEventManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A344C18E1D80021600820004;
+			productRefGroup = A344C1981D80021600820004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A344C1961D80021600820004 /* CalendarEventManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A344C1951D80021600820004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344C1AA1D80021600820004 /* LaunchScreen.storyboard in Resources */,
+				A344C1A71D80021600820004 /* Assets.xcassets in Resources */,
+				A344C1A51D80021600820004 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A344C1931D80021600820004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A344C1A21D80021600820004 /* ViewController.m in Sources */,
+				A344C19F1D80021600820004 /* AppDelegate.m in Sources */,
+				A344C19C1D80021600820004 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A344C1A31D80021600820004 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A344C1A41D80021600820004 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A344C1A81D80021600820004 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A344C1A91D80021600820004 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A344C1AC1D80021600820004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A344C1AD1D80021600820004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A344C1AF1D80021600820004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalendarEventManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.CalendarEventManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A344C1B01D80021600820004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CalendarEventManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-1.CalendarEventManager";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A344C1921D80021600820004 /* Build configuration list for PBXProject "CalendarEventManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A344C1AC1D80021600820004 /* Debug */,
+				A344C1AD1D80021600820004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A344C1AE1D80021600820004 /* Build configuration list for PBXNativeTarget "CalendarEventManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A344C1AF1D80021600820004 /* Debug */,
+				A344C1B01D80021600820004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A344C18F1D80021600820004 /* Project object */;
+}

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="imageView" destination="zVQ-Ho-yQc" id="jXv-qt-A50"/>
+                <outlet property="tableView" destination="z95-2F-bIf" id="Lt9-M9-ctS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="z95-2F-bIf">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="XjD-Su-1mg"/>
+                        <outlet property="delegate" destination="-1" id="Sh5-zB-Sxc"/>
+                    </connections>
+                </tableView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zVQ-Ho-yQc">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="230" id="ge8-SQ-ufZ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ge8-SQ-ufZ"/>
+                        </mask>
+                    </variation>
+                    <variation key="widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="ge8-SQ-ufZ"/>
+                        </mask>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="z95-2F-bIf" secondAttribute="bottom" id="3Mu-S0-bR4"/>
+                <constraint firstAttribute="trailing" secondItem="zVQ-Ho-yQc" secondAttribute="trailing" id="5aa-Mq-Gpq"/>
+                <constraint firstItem="z95-2F-bIf" firstAttribute="top" secondItem="zVQ-Ho-yQc" secondAttribute="bottom" id="9wO-Hl-Ebb"/>
+                <constraint firstItem="zVQ-Ho-yQc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="CDo-lx-mf5"/>
+                <constraint firstItem="z95-2F-bIf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OAS-Na-Rff"/>
+                <constraint firstAttribute="trailing" secondItem="z95-2F-bIf" secondAttribute="trailing" id="OnI-PC-1JT"/>
+                <constraint firstItem="z95-2F-bIf" firstAttribute="top" secondItem="zVQ-Ho-yQc" secondAttribute="bottom" id="Smo-X2-Wqm"/>
+                <constraint firstItem="zVQ-Ho-yQc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="YGg-Hb-iFw"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="z95-2F-bIf"/>
+                    <exclude reference="zVQ-Ho-yQc"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5aa-Mq-Gpq"/>
+                    <exclude reference="CDo-lx-mf5"/>
+                    <exclude reference="YGg-Hb-iFw"/>
+                    <exclude reference="3Mu-S0-bR4"/>
+                    <exclude reference="9wO-Hl-Ebb"/>
+                    <exclude reference="OAS-Na-Rff"/>
+                    <exclude reference="OnI-PC-1JT"/>
+                    <exclude reference="Smo-X2-Wqm"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="z95-2F-bIf"/>
+                    <include reference="zVQ-Ho-yQc"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="5aa-Mq-Gpq"/>
+                    <include reference="CDo-lx-mf5"/>
+                    <include reference="YGg-Hb-iFw"/>
+                    <include reference="3Mu-S0-bR4"/>
+                    <include reference="9wO-Hl-Ebb"/>
+                    <include reference="OAS-Na-Rff"/>
+                    <include reference="OnI-PC-1JT"/>
+                    <include reference="Smo-X2-Wqm"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+</document>

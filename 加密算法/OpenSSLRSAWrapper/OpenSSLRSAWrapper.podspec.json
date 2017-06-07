@@ -1,0 +1,17 @@
+{
+    "authors": {
+    }, 
+    "homepage": "https://github.com/reference/OpenSSLRSAWrapper", 
+    "license": {
+        "file": "LICENSE", 
+        "type": "MIT"
+    }, 
+    "name": "OpenSSLRSAWrapper", 
+    "platforms": {
+        "ios": "5.0"
+    }, 
+    "requires_arc": true, 
+    "source_files": "*.{h,m}", 
+    "summary": "OpenSSLWrapper.", 
+    "version": "1.0"
+}

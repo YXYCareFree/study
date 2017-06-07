@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tP9-PN-q6c">
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCh-L4-yrZ">
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="aJI-nT-S3f">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="hj3-Lf-JJg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zCh-L4-yrZ" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="57X-ZV-8E5"/>
+                            <constraint firstItem="tP9-PN-q6c" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" constant="10" id="ERx-Xo-qGj"/>
+                            <constraint firstAttribute="trailing" secondItem="zCh-L4-yrZ" secondAttribute="trailing" constant="10" id="FT5-lI-7nY"/>
+                            <constraint firstItem="zCh-L4-yrZ" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="10" id="Jtm-zk-hOc"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="LWB-e7-1QL"/>
+                            <constraint firstAttribute="trailing" secondItem="GcN-lo-r42" secondAttribute="trailing" constant="10" id="aZ1-OR-Yp0"/>
+                            <constraint firstItem="tP9-PN-q6c" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="10" id="f7h-R2-BZD"/>
+                            <constraint firstAttribute="trailing" secondItem="tP9-PN-q6c" secondAttribute="trailing" constant="10" id="gzi-4w-iYX"/>
+                            <constraint firstItem="tP9-PN-q6c" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="lIk-2J-JoE"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="10" id="oud-89-Xjv"/>
+                            <constraint firstItem="zCh-L4-yrZ" firstAttribute="top" secondItem="tP9-PN-q6c" secondAttribute="bottom" constant="10" id="pAC-wV-qrt"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="8" id="pKX-mg-Kpg"/>
+                            <constraint firstItem="aJI-nT-S3f" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="rrm-Hh-31R"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="aJI-nT-S3f" secondAttribute="bottom" constant="8" id="wAF-yc-JQA"/>
+                            <constraint firstItem="aJI-nT-S3f" firstAttribute="top" secondItem="zCh-L4-yrZ" secondAttribute="bottom" constant="10" id="x95-gH-1Dm"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="200"/>
+                    <connections>
+                        <outlet property="btn1" destination="tP9-PN-q6c" id="nhZ-GN-DCx"/>
+                        <outlet property="btn2" destination="zCh-L4-yrZ" id="4gk-tU-haK"/>
+                        <outlet property="imageView" destination="aJI-nT-S3f" id="w7T-P7-mLj"/>
+                        <outlet property="label" destination="GcN-lo-r42" id="lpW-cU-7IG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-510.39999999999998" y="98.050974512743636"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,4 @@
+pod "AFNetworking"
+pod "MJRefresh"
+pod "MBProgressHUD"
+pod "JGProgressHUD"

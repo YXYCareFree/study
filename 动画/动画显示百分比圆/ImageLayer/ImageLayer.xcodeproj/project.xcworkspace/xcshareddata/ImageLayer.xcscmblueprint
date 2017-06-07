@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5fcad449-0515-4e73-a397-6d0cad28aa40++9880",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "5fcad449-0515-4e73-a397-6d0cad28aa40++9880" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5fcad449-0515-4e73-a397-6d0cad28aa40++9880" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DCD5F462-531C-4E63-86B9-7CCE57419DB7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5fcad449-0515-4e73-a397-6d0cad28aa40++9880" : "ImageLayer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ImageLayer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ImageLayer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/svn.alibaba-inc.com\/repos\/beehiveplatform",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5fcad449-0515-4e73-a397-6d0cad28aa40++9880"
+    }
+  ]
+}

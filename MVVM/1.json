@@ -1,0 +1,159 @@
+{
+  "Data" : [
+    {
+      "Id" : 110000,
+      "Name" : "北京",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 120000,
+      "Name" : "天津",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 130000,
+      "Name" : "河北省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 140000,
+      "Name" : "山西省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 150000,
+      "Name" : "内蒙古自治区",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 210000,
+      "Name" : "辽宁省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 220000,
+      "Name" : "吉林省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 230000,
+      "Name" : "黑龙江省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 310000,
+      "Name" : "上海",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 320000,
+      "Name" : "江苏省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 330000,
+      "Name" : "浙江省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 340000,
+      "Name" : "安徽省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 350000,
+      "Name" : "福建省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 360000,
+      "Name" : "江西省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 370000,
+      "Name" : "山东省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 410000,
+      "Name" : "河南省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 420000,
+      "Name" : "湖北省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 430000,
+      "Name" : "湖南省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 440000,
+      "Name" : "广东省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 450000,
+      "Name" : "广西壮族自治区",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 460000,
+      "Name" : "海南省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 500000,
+      "Name" : "重庆",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 510000,
+      "Name" : "四川省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 520000,
+      "Name" : "贵州省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 530000,
+      "Name" : "云南省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 540000,
+      "Name" : "西藏自治区",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 610000,
+      "Name" : "陕西省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 620000,
+      "Name" : "甘肃省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 630000,
+      "Name" : "青海省",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 640000,
+      "Name" : "宁夏回族自治区",
+      "ParentId" : 1
+    },
+    {
+      "Id" : 650000,
+      "Name" : "新疆维吾尔自治区",
+      "ParentId" : 1
+    }
+  ]
+}
